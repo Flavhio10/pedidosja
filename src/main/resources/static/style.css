@@ -12,8 +12,7 @@ body{
 header{
     width: 100%;
     height: 60px;
-    padding: 4px;
-    
+    padding: 4px;  
 }
 
 #logo{
@@ -52,7 +51,9 @@ header{
 }
 
 section{
-    width: 940px;
+    width: 950px;
+    height: 520px;
+    margin: 0 auto;
 }
 
 article {
@@ -137,69 +138,86 @@ footer p{
     margin: -30px 0;
 }
 
-/* max-width  */
-@media screen and (max-width: 600px) {
-
-    .container {
-        width: 380px;
-    }
-
-    .container h1{
-        font-size: 18px;
-    }
-
-    #logo, #carrinho{
-        float: left;
-        width: 140px;
-    }
-
-   
+table{  
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
 }
+
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+td{
+    padding: 4px;
+}
+
+.exclui_item img{
+    width: 25px;
+    height: 25px;
+}
+
+h4{
+    color:#340505;
+}
+
+h5{
+    color: #340505;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button{
+    background-color: #068F14;
+    border: 0;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+}
+
 
 /* min-width & max-width */
 @media screen and (min-width: 600px) and (max-width: 900px) {
-
     .container {
-        width: 660px;
+        width: 600px;
     }
 
     .container h1{
-        font-size: 18px;
+        font-size: 16px;
     }    
 
     section{
-        width: 100%;
+        width: 596px;
+        height: auto;
     }
 
     article{
-        width: 100%;
-        float: left;
-        padding: 5px;
+        width: 595px;
+        height: auto;
     }
 
     article ul {
-        width: 600px;
-        margin: 0 auto;
-        padding: 4px;
-        list-style: none;
+        width: 590px;
+        height: auto;
+        padding: 6px;
     }
 
     article ul li{
         width: 180px;
+        height: 240px;
         background-color: #AD0101;
         border-radius: 8px;
-        padding: 4px;
-        margin: 2px;
-        float: left;    
+        margin: 6px; 
         display: inline;
     }
 
-    article img{
+article img{
         width: 170px;
         height: 140px;
         border-radius: 8px;
         padding: 2px;
-        float: left;
 }
 
 article h2{
@@ -207,21 +225,20 @@ article h2{
     font-weight: bold;
     color: #F2E7E7;
     padding: 8px;
-    width: 160px;
-    float: left;
+    width: 140px;
     margin-top: -5px;
 }
 
 article h3{
     font-size: 12px;
-    margin: 5px;
+    padding: 6px;
 }
 
 article p{
     font-size: 10px;
     color: #F2E7E7;
     padding: 6px;
-    width: 250px;
+    width: 140px;
     height: 10px;
     float: left;
 }
@@ -231,15 +248,14 @@ article span{
     font-weight: bold;
     color: #F2E7E7;
     padding: 8px;
-    width: 260px;
+    width: 120px;
     float: left;
-    margin-top: -15px;
 }
 
 .adiciona_pizza img{
-    float: left;
     width: 26px;
     height: 26px;
+    margin-top: -10px;
 }
       
 }
