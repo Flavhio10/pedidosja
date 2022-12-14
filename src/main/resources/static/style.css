@@ -16,10 +16,10 @@ header{
 }
 
 #logo{
-    width: 280px;
+    width: 360px;
     height: 66px;
     float: left;
-    padding: 10px;
+    padding: 8px;
 }
 
 #logo img{
@@ -29,7 +29,7 @@ header{
 
 #logo h1{
     float: left;
-    width: 200px;
+    width: 280px;
     color: #340505;
 }
 
@@ -145,13 +145,10 @@ table{
     text-align: center;
 }
 
-th {
-    background-color: #04AA6D;
-    color: white;
-}
 
 td{
     padding: 4px;
+    border: 1px solid;
 }
 
 .exclui_item img{
@@ -159,15 +156,6 @@ td{
     height: 25px;
 }
 
-h4{
-    color:#340505;
-}
-
-h5{
-    color: #340505;
-    font-size: 15px;
-    font-weight: bold;
-}
 
 button{
     background-color: #068F14;
@@ -177,6 +165,48 @@ button{
     font-size: 16px;
 }
 
+
+label{
+    color: #FFEEEE;
+}
+
+.btn_final_pedido{
+    background-color: #068F14;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.btn_final_pedido a{
+    text-decoration: none;
+    color: #F2E7E7;
+}
+
+.form_cliente{
+    width: 100%;
+    background-color: #AD0101;
+    border-radius: 8px;
+    padding: 10px;
+    float: left;
+}
+
+input{
+    border-radius: 8px;
+    width: 500px;
+    height: 30px;
+    padding: 2px;
+    margin: 8px;
+}
+
+.btn_confirm{
+    width: 200px;
+    height: 40px;
+    background-color: #068F14;
+    border: 0;
+}
+
+.form{
+    width: 520px;
+}
 
 /* min-width & max-width */
 @media screen and (min-width: 600px) and (max-width: 900px) {
